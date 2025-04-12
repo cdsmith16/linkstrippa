@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		E32EA2FD2D56E4A7002889F5 /* LinkStrippa MessagesExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E32EA2FC2D56E4A7002889F5 /* LinkStrippa MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E32EA3022D56E4A7002889F5 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32EA3012D56E4A7002889F5 /* Messages.framework */; };
+		E3FA17BE2DAAF1B600F3C01F /* LinkStrippa_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FA17B42DAAF1B600F3C01F /* LinkStrippa_Common.framework */; };
+		E3FA17C72DAAF1B600F3C01F /* LinkStrippa_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FA17B42DAAF1B600F3C01F /* LinkStrippa_Common.framework */; };
+		E3FA17C82DAAF1B600F3C01F /* LinkStrippa_Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E3FA17B42DAAF1B600F3C01F /* LinkStrippa_Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E3FA17DB2DAAF34600F3C01F /* LinkStrippa_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FA17B42DAAF1B600F3C01F /* LinkStrippa_Common.framework */; };
+		E3FA17DC2DAAF34600F3C01F /* LinkStrippa_Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E3FA17B42DAAF1B600F3C01F /* LinkStrippa_Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E3FA17E02DAAF39900F3C01F /* LinkStrippa_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FA17B42DAAF1B600F3C01F /* LinkStrippa_Common.framework */; };
+		E3FA17E12DAAF39900F3C01F /* LinkStrippa_Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E3FA17B42DAAF1B600F3C01F /* LinkStrippa_Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -18,6 +25,48 @@
 			proxyType = 1;
 			remoteGlobalIDString = E32EA2FB2D56E4A7002889F5;
 			remoteInfo = "LinkStrippa MessagesExtension";
+		};
+		E3FA178A2DAAEBFF00F3C01F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E32EA2ED2D56E4A2002889F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3FA17732DAAEBFD00F3C01F;
+			remoteInfo = "LinkStrippa App";
+		};
+		E3FA17942DAAEBFF00F3C01F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E32EA2ED2D56E4A2002889F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3FA17732DAAEBFD00F3C01F;
+			remoteInfo = "LinkStrippa App";
+		};
+		E3FA17BF2DAAF1B600F3C01F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E32EA2ED2D56E4A2002889F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3FA17B32DAAF1B600F3C01F;
+			remoteInfo = "LinkStrippa Common";
+		};
+		E3FA17C52DAAF1B600F3C01F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E32EA2ED2D56E4A2002889F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3FA17B32DAAF1B600F3C01F;
+			remoteInfo = "LinkStrippa Common";
+		};
+		E3FA17DD2DAAF34600F3C01F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E32EA2ED2D56E4A2002889F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3FA17B32DAAF1B600F3C01F;
+			remoteInfo = "LinkStrippa Common";
+		};
+		E3FA17E22DAAF39900F3C01F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E32EA2ED2D56E4A2002889F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3FA17B32DAAF1B600F3C01F;
+			remoteInfo = "LinkStrippa Common";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -33,12 +82,50 @@
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3FA17CE2DAAF1B600F3C01F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E3FA17C82DAAF1B600F3C01F /* LinkStrippa_Common.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA17DF2DAAF34700F3C01F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E3FA17DC2DAAF34600F3C01F /* LinkStrippa_Common.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA17E42DAAF39900F3C01F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E3FA17E12DAAF39900F3C01F /* LinkStrippa_Common.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E32EA2F32D56E4A2002889F5 /* LinkStrippa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkStrippa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32EA2FC2D56E4A7002889F5 /* LinkStrippa MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LinkStrippa MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32EA3012D56E4A7002889F5 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		E3FA17742DAAEBFD00F3C01F /* LinkStrippa App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LinkStrippa App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FA17892DAAEBFF00F3C01F /* LinkStrippa AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LinkStrippa AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FA17932DAAEBFF00F3C01F /* LinkStrippa AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LinkStrippa AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FA17B42DAAF1B600F3C01F /* LinkStrippa_Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LinkStrippa_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FA17BD2DAAF1B600F3C01F /* LinkStrippa CommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LinkStrippa CommonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -48,6 +135,20 @@
 				Info.plist,
 			);
 			target = E32EA2FB2D56E4A7002889F5 /* LinkStrippa MessagesExtension */;
+		};
+		E3FA179B2DAAEBFF00F3C01F /* Exceptions for "LinkStrippa App" folder in "LinkStrippa App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E3FA17732DAAEBFD00F3C01F /* LinkStrippa App */;
+		};
+		E3FA17C92DAAF1B600F3C01F /* Exceptions for "LinkStrippa Common" folder in "LinkStrippa Common" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				LinkStrippa_Common.h,
+			);
+			target = E3FA17B32DAAF1B600F3C01F /* LinkStrippa Common */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -65,6 +166,37 @@
 			path = "LinkStrippa MessagesExtension";
 			sourceTree = "<group>";
 		};
+		E3FA17752DAAEBFD00F3C01F /* LinkStrippa App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E3FA179B2DAAEBFF00F3C01F /* Exceptions for "LinkStrippa App" folder in "LinkStrippa App" target */,
+			);
+			path = "LinkStrippa App";
+			sourceTree = "<group>";
+		};
+		E3FA178C2DAAEBFF00F3C01F /* LinkStrippa AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LinkStrippa AppTests";
+			sourceTree = "<group>";
+		};
+		E3FA17962DAAEBFF00F3C01F /* LinkStrippa AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LinkStrippa AppUITests";
+			sourceTree = "<group>";
+		};
+		E3FA17B52DAAF1B600F3C01F /* LinkStrippa Common */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E3FA17C92DAAF1B600F3C01F /* Exceptions for "LinkStrippa Common" folder in "LinkStrippa Common" target */,
+			);
+			path = "LinkStrippa Common";
+			sourceTree = "<group>";
+		};
+		E3FA17C12DAAF1B600F3C01F /* LinkStrippa CommonTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LinkStrippa CommonTests";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +205,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				E32EA3022D56E4A7002889F5 /* Messages.framework in Frameworks */,
+				E3FA17DB2DAAF34600F3C01F /* LinkStrippa_Common.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA17712DAAEBFD00F3C01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FA17E02DAAF39900F3C01F /* LinkStrippa_Common.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA17862DAAEBFF00F3C01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA17902DAAEBFF00F3C01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA17B12DAAF1B600F3C01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA17BA2DAAF1B600F3C01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FA17BE2DAAF1B600F3C01F /* LinkStrippa_Common.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA17CD2DAAF1B600F3C01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FA17C72DAAF1B600F3C01F /* LinkStrippa_Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +262,11 @@
 			children = (
 				E32EA2F52D56E4A2002889F5 /* LinkStrippa */,
 				E32EA3032D56E4A7002889F5 /* LinkStrippa MessagesExtension */,
+				E3FA17752DAAEBFD00F3C01F /* LinkStrippa App */,
+				E3FA178C2DAAEBFF00F3C01F /* LinkStrippa AppTests */,
+				E3FA17962DAAEBFF00F3C01F /* LinkStrippa AppUITests */,
+				E3FA17B52DAAF1B600F3C01F /* LinkStrippa Common */,
+				E3FA17C12DAAF1B600F3C01F /* LinkStrippa CommonTests */,
 				E32EA3002D56E4A7002889F5 /* Frameworks */,
 				E32EA2F42D56E4A2002889F5 /* Products */,
 			);
@@ -94,6 +277,11 @@
 			children = (
 				E32EA2F32D56E4A2002889F5 /* LinkStrippa.app */,
 				E32EA2FC2D56E4A7002889F5 /* LinkStrippa MessagesExtension.appex */,
+				E3FA17742DAAEBFD00F3C01F /* LinkStrippa App.app */,
+				E3FA17892DAAEBFF00F3C01F /* LinkStrippa AppTests.xctest */,
+				E3FA17932DAAEBFF00F3C01F /* LinkStrippa AppUITests.xctest */,
+				E3FA17B42DAAF1B600F3C01F /* LinkStrippa_Common.framework */,
+				E3FA17BD2DAAF1B600F3C01F /* LinkStrippa CommonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +296,16 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		E3FA17AF2DAAF1B600F3C01F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		E32EA2F22D56E4A2002889F5 /* LinkStrippa */ = {
 			isa = PBXNativeTarget;
@@ -115,11 +313,14 @@
 			buildPhases = (
 				E32EA2F12D56E4A2002889F5 /* Resources */,
 				E32EA3122D56E4A9002889F5 /* Embed Foundation Extensions */,
+				E3FA17CD2DAAF1B600F3C01F /* Frameworks */,
+				E3FA17CE2DAAF1B600F3C01F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				E32EA2FF2D56E4A7002889F5 /* PBXTargetDependency */,
+				E3FA17C62DAAF1B600F3C01F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				E32EA2F52D56E4A2002889F5 /* LinkStrippa */,
@@ -138,10 +339,12 @@
 				E32EA2F82D56E4A7002889F5 /* Sources */,
 				E32EA2F92D56E4A7002889F5 /* Frameworks */,
 				E32EA2FA2D56E4A7002889F5 /* Resources */,
+				E3FA17DF2DAAF34700F3C01F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E3FA17DE2DAAF34600F3C01F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				E32EA3032D56E4A7002889F5 /* LinkStrippa MessagesExtension */,
@@ -152,6 +355,122 @@
 			productName = "LinkStrippa MessagesExtension";
 			productReference = E32EA2FC2D56E4A7002889F5 /* LinkStrippa MessagesExtension.appex */;
 			productType = "com.apple.product-type.app-extension.messages";
+		};
+		E3FA17732DAAEBFD00F3C01F /* LinkStrippa App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3FA179C2DAAEBFF00F3C01F /* Build configuration list for PBXNativeTarget "LinkStrippa App" */;
+			buildPhases = (
+				E3FA17702DAAEBFD00F3C01F /* Sources */,
+				E3FA17712DAAEBFD00F3C01F /* Frameworks */,
+				E3FA17722DAAEBFD00F3C01F /* Resources */,
+				E3FA17E42DAAF39900F3C01F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3FA17E32DAAF39900F3C01F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E3FA17752DAAEBFD00F3C01F /* LinkStrippa App */,
+			);
+			name = "LinkStrippa App";
+			packageProductDependencies = (
+			);
+			productName = "LinkStrippa App";
+			productReference = E3FA17742DAAEBFD00F3C01F /* LinkStrippa App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3FA17882DAAEBFF00F3C01F /* LinkStrippa AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3FA179F2DAAEBFF00F3C01F /* Build configuration list for PBXNativeTarget "LinkStrippa AppTests" */;
+			buildPhases = (
+				E3FA17852DAAEBFF00F3C01F /* Sources */,
+				E3FA17862DAAEBFF00F3C01F /* Frameworks */,
+				E3FA17872DAAEBFF00F3C01F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3FA178B2DAAEBFF00F3C01F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E3FA178C2DAAEBFF00F3C01F /* LinkStrippa AppTests */,
+			);
+			name = "LinkStrippa AppTests";
+			packageProductDependencies = (
+			);
+			productName = "LinkStrippa AppTests";
+			productReference = E3FA17892DAAEBFF00F3C01F /* LinkStrippa AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3FA17922DAAEBFF00F3C01F /* LinkStrippa AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3FA17A22DAAEBFF00F3C01F /* Build configuration list for PBXNativeTarget "LinkStrippa AppUITests" */;
+			buildPhases = (
+				E3FA178F2DAAEBFF00F3C01F /* Sources */,
+				E3FA17902DAAEBFF00F3C01F /* Frameworks */,
+				E3FA17912DAAEBFF00F3C01F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3FA17952DAAEBFF00F3C01F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E3FA17962DAAEBFF00F3C01F /* LinkStrippa AppUITests */,
+			);
+			name = "LinkStrippa AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "LinkStrippa AppUITests";
+			productReference = E3FA17932DAAEBFF00F3C01F /* LinkStrippa AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E3FA17B32DAAF1B600F3C01F /* LinkStrippa Common */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3FA17CA2DAAF1B600F3C01F /* Build configuration list for PBXNativeTarget "LinkStrippa Common" */;
+			buildPhases = (
+				E3FA17AF2DAAF1B600F3C01F /* Headers */,
+				E3FA17B02DAAF1B600F3C01F /* Sources */,
+				E3FA17B12DAAF1B600F3C01F /* Frameworks */,
+				E3FA17B22DAAF1B600F3C01F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E3FA17B52DAAF1B600F3C01F /* LinkStrippa Common */,
+			);
+			name = "LinkStrippa Common";
+			packageProductDependencies = (
+			);
+			productName = "LinkStrippa Common";
+			productReference = E3FA17B42DAAF1B600F3C01F /* LinkStrippa_Common.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3FA17BC2DAAF1B600F3C01F /* LinkStrippa CommonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3FA17CF2DAAF1B600F3C01F /* Build configuration list for PBXNativeTarget "LinkStrippa CommonTests" */;
+			buildPhases = (
+				E3FA17B92DAAF1B600F3C01F /* Sources */,
+				E3FA17BA2DAAF1B600F3C01F /* Frameworks */,
+				E3FA17BB2DAAF1B600F3C01F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3FA17C02DAAF1B600F3C01F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E3FA17C12DAAF1B600F3C01F /* LinkStrippa CommonTests */,
+			);
+			name = "LinkStrippa CommonTests";
+			packageProductDependencies = (
+			);
+			productName = "LinkStrippa CommonTests";
+			productReference = E3FA17BD2DAAF1B600F3C01F /* LinkStrippa CommonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -166,8 +485,26 @@
 				TargetAttributes = {
 					E32EA2F22D56E4A2002889F5 = {
 						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
 					};
 					E32EA2FB2D56E4A7002889F5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E3FA17732DAAEBFD00F3C01F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E3FA17882DAAEBFF00F3C01F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E3FA17732DAAEBFD00F3C01F;
+					};
+					E3FA17922DAAEBFF00F3C01F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E3FA17732DAAEBFD00F3C01F;
+					};
+					E3FA17B32DAAF1B600F3C01F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E3FA17BC2DAAF1B600F3C01F = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
@@ -188,6 +525,11 @@
 			targets = (
 				E32EA2F22D56E4A2002889F5 /* LinkStrippa */,
 				E32EA2FB2D56E4A7002889F5 /* LinkStrippa MessagesExtension */,
+				E3FA17732DAAEBFD00F3C01F /* LinkStrippa App */,
+				E3FA17882DAAEBFF00F3C01F /* LinkStrippa AppTests */,
+				E3FA17922DAAEBFF00F3C01F /* LinkStrippa AppUITests */,
+				E3FA17B32DAAF1B600F3C01F /* LinkStrippa Common */,
+				E3FA17BC2DAAF1B600F3C01F /* LinkStrippa CommonTests */,
 			);
 		};
 /* End PBXProject section */
@@ -207,10 +549,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3FA17722DAAEBFD00F3C01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA17872DAAEBFF00F3C01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA17912DAAEBFF00F3C01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA17B22DAAF1B600F3C01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA17BB2DAAF1B600F3C01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E32EA2F82D56E4A7002889F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA17702DAAEBFD00F3C01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA17852DAAEBFF00F3C01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA178F2DAAEBFF00F3C01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA17B02DAAF1B600F3C01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA17B92DAAF1B600F3C01F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -224,6 +636,36 @@
 			isa = PBXTargetDependency;
 			target = E32EA2FB2D56E4A7002889F5 /* LinkStrippa MessagesExtension */;
 			targetProxy = E32EA2FE2D56E4A7002889F5 /* PBXContainerItemProxy */;
+		};
+		E3FA178B2DAAEBFF00F3C01F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3FA17732DAAEBFD00F3C01F /* LinkStrippa App */;
+			targetProxy = E3FA178A2DAAEBFF00F3C01F /* PBXContainerItemProxy */;
+		};
+		E3FA17952DAAEBFF00F3C01F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3FA17732DAAEBFD00F3C01F /* LinkStrippa App */;
+			targetProxy = E3FA17942DAAEBFF00F3C01F /* PBXContainerItemProxy */;
+		};
+		E3FA17C02DAAF1B600F3C01F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3FA17B32DAAF1B600F3C01F /* LinkStrippa Common */;
+			targetProxy = E3FA17BF2DAAF1B600F3C01F /* PBXContainerItemProxy */;
+		};
+		E3FA17C62DAAF1B600F3C01F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3FA17B32DAAF1B600F3C01F /* LinkStrippa Common */;
+			targetProxy = E3FA17C52DAAF1B600F3C01F /* PBXContainerItemProxy */;
+		};
+		E3FA17DE2DAAF34600F3C01F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3FA17B32DAAF1B600F3C01F /* LinkStrippa Common */;
+			targetProxy = E3FA17DD2DAAF34600F3C01F /* PBXContainerItemProxy */;
+		};
+		E3FA17E32DAAF39900F3C01F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3FA17B32DAAF1B600F3C01F /* LinkStrippa Common */;
+			targetProxy = E3FA17E22DAAF39900F3C01F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -403,10 +845,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HS2CX62MTW;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Link Strippa";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -414,6 +858,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = llc.smithlabs.LinkStrippa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LinkStrippa/LinkStrippa-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -423,10 +869,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HS2CX62MTW;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Link Strippa";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -434,6 +882,237 @@
 				PRODUCT_BUNDLE_IDENTIFIER = llc.smithlabs.LinkStrippa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LinkStrippa/LinkStrippa-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3FA179D2DAAEBFF00F3C01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS2CX62MTW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LinkStrippa App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.smithlabs.LinkStrippa-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3FA179E2DAAEBFF00F3C01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS2CX62MTW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LinkStrippa App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.smithlabs.LinkStrippa-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3FA17A02DAAEBFF00F3C01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS2CX62MTW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.smithlabs.LinkStrippa-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkStrippa App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinkStrippa App";
+			};
+			name = Debug;
+		};
+		E3FA17A12DAAEBFF00F3C01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS2CX62MTW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.smithlabs.LinkStrippa-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkStrippa App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinkStrippa App";
+			};
+			name = Release;
+		};
+		E3FA17A32DAAEBFF00F3C01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS2CX62MTW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.smithlabs.LinkStrippa-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LinkStrippa App";
+			};
+			name = Debug;
+		};
+		E3FA17A42DAAEBFF00F3C01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS2CX62MTW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.smithlabs.LinkStrippa-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LinkStrippa App";
+			};
+			name = Release;
+		};
+		E3FA17CB2DAAF1B600F3C01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HS2CX62MTW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Smith Labs, LLC. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.smithlabs.LinkStrippa-Common";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3FA17CC2DAAF1B600F3C01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HS2CX62MTW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Smith Labs, LLC. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.smithlabs.LinkStrippa-Common";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3FA17D02DAAF1B600F3C01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS2CX62MTW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.smithlabs.LinkStrippa-CommonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3FA17D12DAAF1B600F3C01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS2CX62MTW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "llc.smithlabs.LinkStrippa-CommonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -465,6 +1144,51 @@
 			buildConfigurations = (
 				E32EA3142D56E4A9002889F5 /* Debug */,
 				E32EA3152D56E4A9002889F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3FA179C2DAAEBFF00F3C01F /* Build configuration list for PBXNativeTarget "LinkStrippa App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FA179D2DAAEBFF00F3C01F /* Debug */,
+				E3FA179E2DAAEBFF00F3C01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3FA179F2DAAEBFF00F3C01F /* Build configuration list for PBXNativeTarget "LinkStrippa AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FA17A02DAAEBFF00F3C01F /* Debug */,
+				E3FA17A12DAAEBFF00F3C01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3FA17A22DAAEBFF00F3C01F /* Build configuration list for PBXNativeTarget "LinkStrippa AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FA17A32DAAEBFF00F3C01F /* Debug */,
+				E3FA17A42DAAEBFF00F3C01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3FA17CA2DAAF1B600F3C01F /* Build configuration list for PBXNativeTarget "LinkStrippa Common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FA17CB2DAAF1B600F3C01F /* Debug */,
+				E3FA17CC2DAAF1B600F3C01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3FA17CF2DAAF1B600F3C01F /* Build configuration list for PBXNativeTarget "LinkStrippa CommonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FA17D02DAAF1B600F3C01F /* Debug */,
+				E3FA17D12DAAF1B600F3C01F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
